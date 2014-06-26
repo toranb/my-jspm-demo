@@ -1,0 +1,9 @@
+npm install jspm
+
+jspm install github:components/jquery@2.1.0
+
+jspm bundle app/main
+
+python -m SimpleHTTPServer 3000
+
+visit http://localhost:3000 to see the running app
